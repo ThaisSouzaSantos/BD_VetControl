@@ -1,6 +1,6 @@
-# 🐾 Levantamento de Requisitos Funcionais (Mini-Mundo)
+#  Levantamento de Requisitos Funcionais (Mini-Mundo)
 
-## 🏥 Clínica Veterinária
+## Clínica Veterinária
 
 Uma clínica veterinária deseja organizar seu sistema para gerenciar clientes, animais, atendimentos, vacinas e serviços realizados.
 
@@ -9,9 +9,9 @@ Os clientes levam seus pets para consultas, vacinações, cirurgias e outros pro
 A clínica também controla produtos utilizados, como vacinas e medicamentos. O sistema deve permitir o agendamento de consultas e o registro dos profissionais responsáveis por cada atendimento.
 ---
 
-## 📋 Requisitos Funcionais
+## Requisitos Funcionais
 
-### 👤 Clientes e Animais
+###  Clientes e Animais
 
 - **RF01** – O sistema deve permitir o cadastro de clientes (nome, CPF, telefone, endereço).
 - **RF02** – O sistema deve permitir o cadastro de animais vinculados a um cliente.
@@ -19,7 +19,7 @@ A clínica também controla produtos utilizados, como vacinas e medicamentos. O 
 
 ---
 
-### 🩺 Atendimentos e Consultas
+###  Atendimentos e Consultas
 
 - **RF04** – O sistema deve permitir o agendamento de consultas veterinárias.
 - **RF05** – O sistema deve registrar atendimentos realizados para cada animal.
@@ -29,7 +29,7 @@ A clínica também controla produtos utilizados, como vacinas e medicamentos. O 
 
 ---
 
-### 💉 Vacinas e Medicamentos
+### Vacinas e Medicamentos
 
 - **RF09** – O sistema deve permitir o cadastro de vacinas e medicamentos.
 - **RF10** – O sistema deve registrar a aplicação de vacinas nos animais.
@@ -38,7 +38,7 @@ A clínica também controla produtos utilizados, como vacinas e medicamentos. O 
 
 ---
 
-### ⚙️ Serviços e Procedimentos
+### Serviços e Procedimentos
 
 - **RF13** – O sistema deve registrar serviços realizados (consulta, cirurgia, exames).
 - **RF14** – O sistema deve permitir a associação de serviços a um atendimento.
@@ -46,7 +46,7 @@ A clínica também controla produtos utilizados, como vacinas e medicamentos. O 
 
 ---
 
-### 📊 Controle e Histórico
+### Controle e Histórico
 
 - **RF16** – O sistema deve registrar o histórico de atendimentos de cada animal.
 - **RF17** – O sistema deve registrar o histórico de serviços realizados por cliente.
