@@ -5,7 +5,7 @@
 - **RN03** – Não é permitido cadastrar dois clientes com o mesmo CPF.
 - **RN04** – Um animal deve possuir, obrigatoriamente, nome, espécie e idade no momento do cadastro.
 - **RN05** – A idade e o peso do animal devem ser valores positivos.
-
+---
 ### Atendimentos e Consultas
 - **RN06** – Todo atendimento deve estar vinculado a um único animal.
 - **RN07** – Um atendimento deve possuir, obrigatoriamente, um veterinário responsável.
@@ -13,4 +13,12 @@
 - **RN09** – Um animal pode possuir vários atendimentos ao longo do tempo.
 - **RN10** – Cada atendimento deve conter, obrigatoriamente, data e horário.
 - **RN11** – Diagnóstico e tratamento devem ser registrados obrigatoriamente após a realização do atendimento.
+---
+### Vacinas e Medicamentos
+- **RN12** – Toda vacina ou medicamento deve possuir cadastro com nome, fabricante e validade.
+- **RN13** – Não é permitida a aplicação de vacinas ou medicamentos com data de validade expirada.
+- **RN14** – Toda vacina aplicada deve estar associada a um animal e a um atendimento.
+- **RN15** – Cada vacina deve possuir identificação de lote para rastreabilidade.
+---
+
 
