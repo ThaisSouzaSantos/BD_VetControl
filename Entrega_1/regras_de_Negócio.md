@@ -25,5 +25,11 @@
 - **RN17** – Um atendimento pode possuir um ou mais serviços associados.
 - **RN18** – Cada serviço deve possuir um custo registrado maior ou igual a zero.
 - **RN19** – Não é permitido registrar serviços sem especificar o tipo (consulta, cirurgia, exame, etc.).
+---
+### Controle e Histórico
+- **RN20** – O histórico clínico de um animal deve ser composto por todos os seus atendimentos registrados.
+- **RN21** – O histórico de serviços de um cliente deve considerar todos os serviços realizados nos seus animais.
+- **RN22** – O sistema deve permitir consultas de atendimentos por intervalo de datas válido (data inicial ≤ data final).
+
 
 
