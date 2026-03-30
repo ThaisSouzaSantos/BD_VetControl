@@ -30,6 +30,7 @@
 - **RN20** – O histórico clínico de um animal deve ser composto por todos os seus atendimentos registrados.
 - **RN21** – O histórico de serviços de um cliente deve considerar todos os serviços realizados nos seus animais.
 - **RN22** – O sistema deve permitir consultas de atendimentos por intervalo de datas válido (data inicial ≤ data final).
-
-
-
+---
+### Profissionais
+- **RN23** – Todo veterinário deve estar previamente cadastrado no sistema.
+- **RN24** – Um veterinário pode ser responsável por vários atendimentos.
