@@ -1,5 +1,4 @@
-#  Regras de Negócio – Clínica Veterinária
-## Regras de Negócio (RN)
+#  Regras de Negócio (RN) – Clínica Veterinária
 ### Clientes e Animais
 - **RN01** – Todo animal deve estar obrigatoriamente vinculado a um único cliente.
 - **RN02** – Um cliente pode possuir um ou mais animais cadastrados.
@@ -7,4 +6,11 @@
 - **RN04** – Um animal deve possuir, obrigatoriamente, nome, espécie e idade no momento do cadastro.
 - **RN05** – A idade e o peso do animal devem ser valores positivos.
 
+### Atendimentos e Consultas
+- **RN06** – Todo atendimento deve estar vinculado a um único animal.
+- **RN07** – Um atendimento deve possuir, obrigatoriamente, um veterinário responsável.
+- **RN08** – Um atendimento só pode ser registrado se houver um agendamento prévio (consulta marcada).
+- **RN09** – Um animal pode possuir vários atendimentos ao longo do tempo.
+- **RN10** – Cada atendimento deve conter, obrigatoriamente, data e horário.
+- **RN11** – Diagnóstico e tratamento devem ser registrados obrigatoriamente após a realização do atendimento.
 
