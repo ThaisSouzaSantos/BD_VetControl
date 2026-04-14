@@ -20,12 +20,6 @@
 - **RN14** – Toda vacina aplicada deve estar associada a um animal e a um atendimento.
 - **RN15** – Cada vacina deve possuir identificação de lote para rastreabilidade.
 ---
-### Serviços e Procedimentos
-- **RN16** – Todo serviço realizado deve estar vinculado a um atendimento.
-- **RN17** – Um atendimento pode possuir um ou mais serviços associados.
-- **RN18** – Cada serviço deve possuir um custo registrado maior ou igual a zero.
-- **RN19** – Não é permitido registrar serviços sem especificar o tipo (consulta, cirurgia, exame, etc.).
----
 ### Controle e Histórico
 - **RN20** – O histórico clínico de um animal deve ser composto por todos os seus atendimentos registrados.
 - **RN21** – O histórico de serviços de um cliente deve considerar todos os serviços realizados nos seus animais.
