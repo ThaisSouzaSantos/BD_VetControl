@@ -12,7 +12,7 @@
 - **RN08** – Um atendimento só pode ser registrado se houver um agendamento prévio (consulta marcada).
 - **RN09** – Um animal pode possuir vários atendimentos ao longo do tempo.
 - **RN10** – Cada atendimento deve conter, obrigatoriamente, data e horário.
-- **RN11** – Diagnóstico e tratamento devem ser registrados obrigatoriamente após a realização do atendimento.
+- **RN11** – Diagnóstico e tratamento podem ser registrados após a realização do atendimento.
 ---
 ### Vacinas e Medicamentos
 - **RN12** – Toda vacina ou medicamento deve possuir cadastro com nome, fabricante e validade.
