@@ -40,6 +40,6 @@ A clínica também controla produtos utilizados, como vacinas e medicamentos. O 
 
 ### Controle e Histórico
 
-- **RF16** – O sistema deve registrar o histórico de atendimentos de cada animal.
-- **RF17** – O sistema deve registrar o histórico de serviços realizados por cliente.
-- **RF18** – O sistema deve permitir a consulta de atendimentos por período.
+- **RF13** – O sistema deve registrar o histórico de atendimentos de cada animal.
+- **RF14** – O sistema deve registrar o histórico de serviços realizados por cliente.
+- **RF15** – O sistema deve permitir a consulta de atendimentos por período.
