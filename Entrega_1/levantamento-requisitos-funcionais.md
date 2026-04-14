@@ -38,14 +38,6 @@ A clínica também controla produtos utilizados, como vacinas e medicamentos. O 
 
 ---
 
-### Serviços e Procedimentos
-
-- **RF13** – O sistema deve registrar serviços realizados (consulta, cirurgia, exames).
-- **RF14** – O sistema deve permitir a associação de serviços a um atendimento.
-- **RF15** – O sistema deve armazenar o custo dos serviços realizados.
-
----
-
 ### Controle e Histórico
 
 - **RF16** – O sistema deve registrar o histórico de atendimentos de cada animal.
