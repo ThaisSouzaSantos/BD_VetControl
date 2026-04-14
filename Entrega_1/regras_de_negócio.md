@@ -21,10 +21,10 @@
 - **RN15** – Cada vacina deve possuir identificação de lote para rastreabilidade.
 ---
 ### Controle e Histórico
-- **RN20** – O histórico clínico de um animal deve ser composto por todos os seus atendimentos registrados.
-- **RN21** – O histórico de serviços de um cliente deve considerar todos os serviços realizados nos seus animais.
-- **RN22** – O sistema deve permitir consultas de atendimentos por intervalo de datas válido (data inicial ≤ data final).
+- **RN16** – O histórico clínico de um animal deve ser composto por todos os seus atendimentos registrados.
+- **RN17** – O histórico de serviços de um cliente deve considerar todos os serviços realizados nos seus animais.
+- **RN18** – O sistema deve permitir consultas de atendimentos por intervalo de datas válido (data inicial ≤ data final).
 ---
 ### Profissionais
-- **RN23** – Todo veterinário deve estar previamente cadastrado no sistema.
-- **RN24** – Um veterinário pode ser responsável por vários atendimentos.
+- **RN19** – Todo veterinário deve estar previamente cadastrado no sistema.
+- **RN20** – Um veterinário pode ser responsável por vários atendimentos.
