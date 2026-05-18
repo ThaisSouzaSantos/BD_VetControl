@@ -5,7 +5,7 @@
 A tabela encontra-se na 3FN:
 
 Aplicacao_Vacina (
-id_aplicacao,
+<u>id_aplicacao (PK)</u>,
 data_aplicacao,
 id_animal_FK,
 id_vacina_FK,
@@ -18,7 +18,7 @@ id_vet_FK
 ### Tabela Inicial (não normalizada)
 
 Aplicacao_Vacina (
-id_aplicacao,
+<u>id_aplicacao (PK)</u>,
 data_aplicacao,
 nome_animal,
 nome_vacina,
@@ -30,12 +30,8 @@ numero_lote
 
 ### Aplicando a 1FN
 
-Todos os atributos passaram a possuir valores atômicos.
-
-A tabela permanece:
-
 Aplicacao_Vacina (
-id_aplicacao,
+<u>id_aplicacao (PK)</u>,
 data_aplicacao,
 nome_animal,
 nome_vacina,
@@ -47,32 +43,28 @@ numero_lote
 
 ### Aplicando a 2FN
 
-Os dados referentes ao animal, vacina, veterinário e lote foram separados em tabelas próprias para evitar redundância.
-
-#### Resultado:
-
 Animal (
-id_animal,
+<u>id_animal (PK)</u>,
 nome
 )
 
 Vacina (
-id_vacina,
+<u>id_vacina (PK)</u>,
 nome
 )
 
 Veterinario (
-id_vet,
+<u>id_vet (PK)</u>,
 nome
 )
 
 Lote (
-id_lote,
+<u>id_lote (PK)</u>,
 numero
 )
 
 Aplicacao_Vacina (
-id_aplicacao,
+<u>id_aplicacao (PK)</u>,
 data_aplicacao,
 id_animal_FK,
 id_vacina_FK,
@@ -84,12 +76,8 @@ id_vet_FK
 
 ### Aplicando a 3FN
 
-Foram removidas dependências transitivas, mantendo apenas atributos diretamente dependentes da chave primária.
-
-#### Tabela final normalizada:
-
 Aplicacao_Vacina (
-id_aplicacao,
+<u>id_aplicacao (PK)</u>,
 data_aplicacao,
 id_animal_FK,
 id_vacina_FK,
@@ -99,21 +87,21 @@ id_vet_FK
 
 ---
 
-# 2) Normalização da tabela Atendimento_Servico
+## 2) Normalização da tabela Atendimento_Servico
 
-A tabela encontra-se na 3FN:
+Tabela final na 3FN:
 
 Atendimento_Servico (
-id_atendimento_FK,
-id_servico_FK
+<u>id_atendimento_FK (PK)</u>,
+<u>id_servico_FK (PK)</u>
 )
 
 ---
 
-### Tabela Inicial (não normalizada)
+### Tabela Inicial
 
 Atendimento_Servico (
-id_atendimento,
+<u>id_atendimento (PK)</u>,
 nome_servico,
 descricao_servico
 )
@@ -122,12 +110,8 @@ descricao_servico
 
 ### Aplicando a 1FN
 
-Todos os atributos passaram a possuir valores atômicos.
-
-A tabela permanece:
-
 Atendimento_Servico (
-id_atendimento,
+<u>id_atendimento (PK)</u>,
 nome_servico,
 descricao_servico
 )
@@ -136,51 +120,43 @@ descricao_servico
 
 ### Aplicando a 2FN
 
-Os dados do serviço foram separados em uma tabela própria para evitar redundância.
-
-#### Resultado:
-
 Servico (
-id_servico,
+<u>id_servico (PK)</u>,
 nome,
 descricao
 )
 
 Atendimento_Servico (
-id_atendimento_FK,
-id_servico_FK
+<u>id_atendimento_FK (PK)</u>,
+<u>id_servico_FK (PK)</u>
 )
 
 ---
 
 ### Aplicando a 3FN
 
-Foram removidas dependências transitivas, mantendo apenas atributos diretamente dependentes da chave primária.
-
-#### Tabela final normalizada:
-
 Atendimento_Servico (
-id_atendimento_FK,
-id_servico_FK
+<u>id_atendimento_FK (PK)</u>,
+<u>id_servico_FK (PK)</u>
 )
 
 ---
 
-# 3) Normalização da tabela Prescricao_Medicamento
+## 3) Normalização da tabela Prescricao_Medicamento
 
-A tabela encontra-se na 3FN:
+Tabela final na 3FN:
 
 Prescricao_Medicamento (
-id_prescricao_FK,
-id_med_FK
+<u>id_prescricao_FK (PK)</u>,
+<u>id_med_FK (PK)</u>
 )
 
 ---
 
-### Tabela Inicial (não normalizada)
+### Tabela Inicial
 
 Prescricao_Medicamento (
-id_prescricao,
+<u>id_prescricao (PK)</u>,
 nome_medicamento,
 tipo,
 validade
@@ -190,12 +166,8 @@ validade
 
 ### Aplicando a 1FN
 
-Todos os atributos passaram a possuir valores atômicos.
-
-A tabela permanece:
-
 Prescricao_Medicamento (
-id_prescricao,
+<u>id_prescricao (PK)</u>,
 nome_medicamento,
 tipo,
 validade
@@ -205,31 +177,23 @@ validade
 
 ### Aplicando a 2FN
 
-Os dados do medicamento foram separados em uma tabela própria para evitar redundância.
-
-#### Resultado:
-
 Medicamento (
-id_med,
+<u>id_med (PK)</u>,
 nome,
 tipo,
 validade
 )
 
 Prescricao_Medicamento (
-id_prescricao_FK,
-id_med_FK
+<u>id_prescricao_FK (PK)</u>,
+<u>id_med_FK (PK)</u>
 )
 
 ---
 
 ### Aplicando a 3FN
 
-Foram removidas dependências transitivas, mantendo apenas atributos diretamente dependentes da chave primária.
-
-#### Tabela final normalizada:
-
 Prescricao_Medicamento (
-id_prescricao_FK,
-id_med_FK
+<u>id_prescricao_FK (PK)</u>,
+<u>id_med_FK (PK)</u>
 )
