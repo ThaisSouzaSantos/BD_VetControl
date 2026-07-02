@@ -1,4 +1,4 @@
--- =========================================================
+
 -- DDL.sql - Projeto VetControl
 -- Criação do esquema físico do banco de dados
 
